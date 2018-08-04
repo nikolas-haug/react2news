@@ -10,11 +10,12 @@ const Saved = (props) => {
         {props.savedArticles.map((article) => {
 
           return (
-            <div key={article._id}>
+            <div key={article._id} className="my-3">
               
                 <a href={article.url} target="_blank"><h4><i className="fas fa-anchor mr-2"></i>{article.title}</h4></a>
                 <p>{article.summary}</p>
                 <button onClick={() => props.deleteArticle(article._id)} className="btn btn-sm btn-danger ml-auto">delete</button>
+                <hr className="mb-2"/>
              
             </div>
           )
