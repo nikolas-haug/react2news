@@ -1,7 +1,7 @@
 {
-  "name": "NYT-React-Search",
+  "name": "react2news",
   "version": "1.0.0",
-  "description": "UNC BC React.js-based New York Times search tool.",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "server": "node server.js",
