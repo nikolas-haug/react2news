@@ -1,10 +1,17 @@
-/* * {
-  font-family: 'Lobster', cursive;
+/* custom css for main page */
+
+* {
+  font-family: 'Merriweather', serif;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  background-color: #cfd1d6;
-} */
+  background-color: tomato;
+}
+
+.card-header {
+  background-color: #4F5D75;
+}
+
+.card-body {
+  background-color: #D8CBC7;
+}

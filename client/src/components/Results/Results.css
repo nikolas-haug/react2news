@@ -1,20 +1,16 @@
-/* .results-box {
-  background-color: #353b40;
-  color: white;
+/* custom css for results component */
+
+a {
+  color: #1A1F16;
 }
 
-.article-display {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  padding: 20px;
+a:hover {
+  text-decoration: none;
+  color: #fff;
+  transition: all, 0.3s;
 }
 
 hr {
-  background-color: white;
+  width: 50%;
+  background-color: #fff;
 }
-
-img {
-  width: 200px;
-} */

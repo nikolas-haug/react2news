@@ -7,7 +7,7 @@ const Search = (props) => {
   return (
     <div className="card">
       <div className="card-header">
-        <h4>Search</h4>
+        <h4 className="mb-0">Search</h4>
       </div>
       <div className="card-body">
         <form onSubmit={props.handleFormSubmit}>

@@ -1,5 +1,7 @@
+/* custom css for header component */
+
 .jumbotron {
   text-align: center;
-  background-color: #353b40;
-  color: white;
+  background-color: #1A1F16;
+  color: #fff;
 }
